@@ -1,0 +1,125 @@
+.btnn{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    height: 50px;
+    margin: 5px;
+    width: 120px;
+    cursor: pointer;
+    background: #7C4DFF;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: Consolas, Courier New, monospace;
+    border: solid #754CFF 1px;
+    font-size: 16px;
+    color: rgb(161, 161, 161);
+    -webkit-transition: 500ms;
+    transition: 500ms;
+    border-radius: 5px;
+    background: linear-gradient(145deg, #4A2A99, #360E6F);
+    -webkit-box-shadow: -1px -5px 15px #471C8B, 
+                 5px  5px 15px #471C8B, 
+      inset      5px  5px 10px #360E6F, 
+      inset     -5px -5px 10px #360E6F;
+    box-shadow: -1px -5px 15px #471C8B, 
+                 5px  5px 15px #471C8B, 
+      inset      5px  5px 10px #360E6F, 
+      inset     -5px -5px 10px #360E6F;
+  }
+  
+  .btnn :hover {
+    -webkit-box-shadow: 1px 1px 13px #300A67,
+                      -1px -1px 13px #4A2A99;
+    box-shadow: 1px 1px 13px #300A67,
+               -1px -1px 13px #4A2A99;
+    color: #d6d6d6;
+    -webkit-transition: 500ms;
+    transition: 500ms;
+  }
+  
+  .btnn :active {
+    -webkit-box-shadow: 1px 1px 13px #300A67,
+                       -1px -1px 33px #4A2A99;
+    box-shadow: 1px 1px 13px #300A67,
+               -1px -1px 33px #4A2A99;
+    color: #d6d6d6;
+    -webkit-transition: 100ms;
+    transition: 100ms;
+  }
+  .input {
+    max-width: 1500px;
+    height: 44px;
+    background-color: #05060f0a;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    border: 2px solid transparent;
+    font-size: 1rem;
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: .3rem;
+    font-size: .9rem;
+    font-weight: bold;
+    color: #05060f99;
+    transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+  }
+  
+  .input:hover, .input:focus, .input-group:hover .input {
+    outline: none;
+    border-color: #05060f;
+  }
+  
+  .input-group:hover .label, .input:focus {
+    color: #05060fc2;
+  }
+  
+  
+  .dell {
+    appearance: none;
+    background-color: transparent;
+    border: 0.125em solid #1A1A1A;
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 2.75em;
+    min-width: 0;
+    outline: none;
+    padding: 1em 2.3em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+   }
+   
+   .dell:disabled {
+    pointer-events: none;
+   }
+   
+   .dell:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+   }
+   
+   .dell:active {
+    box-shadow: none;
+    transform: translateY(0);
+   }
